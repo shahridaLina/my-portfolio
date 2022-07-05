@@ -9,11 +9,15 @@ h1{
     margin-top: 70px;
 }
 
+h2{
+    font-size: 30px;
+}
+
 .orange{
     color: orange;
 }
 
-section{
+.flexible{
     display: flex;
     
     margin-bottom: 100px;
@@ -48,4 +52,32 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.box{
+
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#stack-developer{
+    border-left: 5px solid tomato;
+}
+
+#web-developer{
+    border-left: 5px solid blue;
+}
+
+footer p{
+    text-align: center;
 }
